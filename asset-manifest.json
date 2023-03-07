@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BreezyCandles/static/css/main.12c166ba.css",
-    "main.js": "/BreezyCandles/static/js/main.cd551f7e.js",
+    "main.js": "/BreezyCandles/static/js/main.fce19fd0.js",
     "static/media/candle2.jpg": "/BreezyCandles/static/media/candle2.6d4f28e185c742aba441.jpg",
     "static/media/image3.jpg": "/BreezyCandles/static/media/image3.6d4f28e185c742aba441.jpg",
     "static/media/image1.jpg": "/BreezyCandles/static/media/image1.f07d77c01c52ce780c0f.jpg",
@@ -9,10 +9,10 @@
     "static/media/image2.jpg": "/BreezyCandles/static/media/image2.f7c4a2ba191a0f9864bb.jpg",
     "index.html": "/BreezyCandles/index.html",
     "main.12c166ba.css.map": "/BreezyCandles/static/css/main.12c166ba.css.map",
-    "main.cd551f7e.js.map": "/BreezyCandles/static/js/main.cd551f7e.js.map"
+    "main.fce19fd0.js.map": "/BreezyCandles/static/js/main.fce19fd0.js.map"
   },
   "entrypoints": [
     "static/css/main.12c166ba.css",
-    "static/js/main.cd551f7e.js"
+    "static/js/main.fce19fd0.js"
   ]
 }
