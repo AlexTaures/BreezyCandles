@@ -1,0 +1,77 @@
+.shopContainer .productContainer .image img{
+  width: 200px;
+}
+.shopContainer .productContainer .image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.shopContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  margin-top: 60px;
+  border: dashed 1px white;
+  width: 90%;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.shopContainer .productContainer{
+  border: dashed 1px white;
+  margin: auto;
+  width: 250px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  animation-name: cssAnimation;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+  from {
+    transform: rotate(0deg) scale(0) skew(0deg) ;
+  }
+  to {
+    transform: rotate(0deg) scale(1) skew(0deg);
+  }
+}
+
+.shopContainer .productContainer:hover{
+  scale: 1.05;
+  transition: 0.1s;
+  box-shadow: #ff8000 -1px -1px 6px 6px;
+}
+
+.shopContainer .productContainer .infoLine{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.shopContainer .productContainer .infoLine .tag{
+  padding: 2px 5px 2px 5px;
+  background: #ff8000;
+  color: white;
+  width: 120px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.shopContainer .productContainer .infoLine .info{
+  padding: 2px 5px 2px 5px;
+  color: white;
+  width: 65px;
+  margin-top: 5px;
+}

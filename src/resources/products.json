@@ -1,0 +1,17 @@
+[
+  {
+    "weight": "6 oz",
+    "price": "$5.00",
+    "image": "image1"
+  },
+  {
+    "weight": "8 oz",
+    "price": "$7.00",
+    "image": "image2"
+  },
+  {
+    "weight": "18 oz",
+    "price": "$19.99",
+    "image": "image3"
+  }
+]
